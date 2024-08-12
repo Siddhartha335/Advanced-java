@@ -1,5 +1,5 @@
 package packageTwo;
-import packageOne.ProtectionLevel
+import packageOne.ProtectionLevel;
 public class DifferentPackageNonSubClass {
 
     public DifferentPackageNonSubClass() {
