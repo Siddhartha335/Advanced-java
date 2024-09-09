@@ -12,6 +12,7 @@ public class ProgressBarDemo extends JFrame {
         setTitle("Table Demo");
         setSize(300,300);
         bar = new JProgressBar(SwingConstants.HORIZONTAL,1,100);
+        bar.setStringPainted(true);
         progress = new JButton("Click to show progress:");
         progress.addActionListener(new ActionListener() {
             int count =0;
