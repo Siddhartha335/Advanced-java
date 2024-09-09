@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class FIleColorChooser extends JFrame {
     JButton filebtn, colorbtn;
     JPanel panel;
-    Container con
+    Container con;
     public FIleColorChooser() {
         setTitle("File and Color Frame");
         setSize(300,300);
