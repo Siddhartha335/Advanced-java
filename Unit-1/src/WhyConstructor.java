@@ -11,7 +11,7 @@ public class WhyConstructor {
     WhyConstructor(int length)
     {
         this.length = length;
-        System.out.println("The area of square is:"+4*3.14*length*length);
+        System.out.println("The area of square is:"+length*length);
     }
     public static void main(String[] args) {
 
