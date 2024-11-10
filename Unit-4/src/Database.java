@@ -11,7 +11,6 @@ public class Database {
             // Establish the connection
             System.out.println("Connecting to database...");
             connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-            System.out.println("Database connected!");
         } catch (SQLException e) {
             throw new IllegalStateException("Cannot connect the database!", e);
         }
@@ -38,4 +37,5 @@ public class Database {
         // Instantiate Database to test the connection
         new Database();
     }
+
 }
