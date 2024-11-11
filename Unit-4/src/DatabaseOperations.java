@@ -19,6 +19,12 @@ public class DatabaseOperations {
                 + "email VARCHAR(100), "
                 + "hire_date DATE)";
 
+//        String createTableSQL = "CREATE TABLE IF NOT EXISTS Students ("
+//                + "id INT AUTO_INCREMENT PRIMARY KEY, "
+//                + "sname VARCHAR(50), "
+//                + "semail VARCHAR(50), "
+//                + "saddress VARCHAR(100))";
+
         try (Statement stmt = connection.createStatement()) {
             stmt.executeUpdate(createTableSQL);
             System.out.println("Table 'Employee' created successfully.");

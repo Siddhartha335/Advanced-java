@@ -1,3 +1,5 @@
+package ClassTask;
+
 import java.sql.*;
 
 public class Database {
@@ -40,3 +42,4 @@ public class Database {
     }
 
 }
+
