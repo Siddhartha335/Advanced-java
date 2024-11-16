@@ -29,7 +29,7 @@ public class UsingSynchronizedMethod extends Thread {
         sid.seats = 24;
         sid.start();
         UsingSynchronizedMethod sid1 = new UsingSynchronizedMethod();
-        sid1.seats = 24;
+        sid1.seats = 25;
         sid1.start();
     }
 }
