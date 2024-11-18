@@ -6,10 +6,11 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-public class GridPaneLayout extends Application {
-
+public class ChangeCSS extends Application {
     @Override
     public void start(Stage stage) throws Exception {
+        Button button = new Button("Blue Button");
+        button.setStyle("-fx-background-color: red; -fx-text-fill: white;");
         //Components
         Button btn1 = new Button("Button 1");
         Button btn2 = new Button("Button 2");
@@ -22,7 +23,7 @@ public class GridPaneLayout extends Application {
         GridPane root = new GridPane();
         root.setHgap(5);
         root.setVgap(5);
-        root.add(btn1,0,0);
+        root.add(button,0,0);
         root.add(btn2,0,1);
         root.add(btn3,0,2);
         root.add(btn4,1,0);
@@ -34,7 +35,6 @@ public class GridPaneLayout extends Application {
         stage.setTitle("GridPane Window");
         stage.setScene(scene);
         stage.show();
-
     }
 
     public static void main(String[] args) {
