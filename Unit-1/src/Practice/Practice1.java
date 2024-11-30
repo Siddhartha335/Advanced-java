@@ -36,7 +36,7 @@ import java.util.Scanner;
 //    }
 //}
 
-public class Practice1 {
+//public class Practice1 {
 
 ////    public Practice1() {
 ////        Scanner input = new Scanner(System.in);
@@ -74,11 +74,13 @@ public class Practice1 {
 //        ad.getVolume();
 //    }
 
-    public Practice1() {
+//    public Practice1() {
+//
+//    }
+//
+//    public static void main(String[] args) {
+//        new Practice1();
+//    }
+//}
 
-    }
 
-    public static void main(String[] args) {
-        new Practice1();
-    }
-}

@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49b3f150-7b56-46fe-9a25-cbd32059e7ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Unit-1/src/Practice/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-1/src/Practice/Practice1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-1/src/synchronizationPackage/UsingSynchronizedBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-1/src/synchronizationPackage/UsingSynchronizedBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Unit-4/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit-4/Database.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-6/src/main/java/com/example/unit6/ChangeCSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-6/src/main/java/com/example/unit6/ChangeCSS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-7/out/artifacts/Unit_7_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-7/out/artifacts/Unit_7_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-7/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-7/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Form">
+  <component name="RunManager" selected="Application.MovieDatabaseExample">
     <configuration name="Database" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Database" />
       <module name="Unit-4" />
@@ -77,6 +79,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MovieDatabaseExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MovieDatabaseExample" />
+      <module name="Unit-4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ResultSetAdditionalProperties" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ResultSetAdditionalProperties" />
       <module name="Unit-4" />
@@ -86,6 +95,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MovieDatabaseExample" />
         <item itemvalue="Application.Form" />
         <item itemvalue="Application.DatabaseOperations" />
         <item itemvalue="Application.ResultSetAdditionalProperties" />
@@ -107,6 +117,11 @@
       <workItem from="1731226930643" duration="602000" />
       <workItem from="1731229646457" duration="233000" />
       <workItem from="1731287217596" duration="2831000" />
+      <workItem from="1731373037645" duration="11000" />
+      <workItem from="1732588782293" duration="16000" />
+      <workItem from="1732588899726" duration="46000" />
+      <workItem from="1732598683126" duration="35000" />
+      <workItem from="1732945453465" duration="1408000" />
     </task>
     <servers />
   </component>

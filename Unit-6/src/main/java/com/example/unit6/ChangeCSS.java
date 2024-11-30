@@ -10,7 +10,7 @@ public class ChangeCSS extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         Button button = new Button("Blue Button");
-        button.setStyle("-fx-background-color: red; -fx-text-fill: white;");
+        button.setStyle("-fx-background-color: crimson; -fx-text-fill: white;");
         //Components
         Button btn1 = new Button("Button 1");
         Button btn2 = new Button("Button 2");

@@ -1,6 +1,6 @@
 package synchronizationPackage;
 
-class CSITBook2 {
+class CSITSeats {
     int totalSeats = 48;
     public void book(int reqseats) {
         synchronized(this) { //this indicates the reference to the class
@@ -19,7 +19,7 @@ class CSITBook2 {
 }
 
 public class UsingSynchronizedBlock extends Thread {
-    static CSITBook2 csit;
+    static CSITSeats csit;
     int seats;
     @Override
     public void run() {
@@ -27,7 +27,7 @@ public class UsingSynchronizedBlock extends Thread {
     }
 
     public static void main(String[] args) {
-        csit = new CSITBook2();
+        csit = new CSITSeats();
         UsingSynchronizedBlock sid = new UsingSynchronizedBlock();
         sid.seats = 24;
         sid.start();
