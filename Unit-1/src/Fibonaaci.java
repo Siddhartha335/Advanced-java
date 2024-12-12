@@ -13,10 +13,10 @@ public class Fibonaaci {
     }
 
     public static void main(String[] args) {
-        Fibonaaci fib = new Fibonaaci();
+//        Fibonaaci fib = new Fibonaaci();
         System.out.println("The fibonacci series is:");
         for(int i=0;i<6;i++) {
-            int result = fib.fibonaaciSeries(i);
+            int result = fibonaaciSeries(i);
             System.out.print(result + " ");
         }
     }

@@ -29,7 +29,7 @@ public class WithoutSynchronization extends Thread {
         sid.seats = 24;
         sid.start();
         WithoutSynchronization sid1 = new WithoutSynchronization();
-        sid1.seats = 24;
+        sid1.seats = 40;
         sid1.start();
     }
 }
