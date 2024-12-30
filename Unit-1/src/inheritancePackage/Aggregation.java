@@ -1,7 +1,7 @@
 package inheritancePackage;
 
 class Address {
-    String province,city, country;
+    String province,city,country;
 
     public Address(String province,String city, String country) {
         this.province = province;

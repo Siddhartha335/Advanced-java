@@ -8,7 +8,7 @@ public class UDPClient {
         ds = new DatagramSocket();
         byte[] buff = new byte[256];
         InetAddress address = InetAddress.getByName("localhost");
-        String s = "hello Server. I am Client";
+        String s = "Hello server, I am a Client";
         packet = new DatagramPacket(buff,buff.length,address,4445);
         ds.send(packet);
 
@@ -17,8 +17,6 @@ public class UDPClient {
         ds.receive(packet);
 
         //Send response
-
-
 
         //display response
         String recieved = new String(packet.getData());

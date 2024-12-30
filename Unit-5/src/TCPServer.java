@@ -9,10 +9,10 @@ public class TCPServer {
     Socket soc;
     public TCPServer() throws IOException {
         ss = new ServerSocket(1254);
-        soc = ss.accept(); //accept the request form the socket
+        soc = ss.accept(); //It accepts the connection of socket
         DataInputStream in = new DataInputStream(soc.getInputStream());
         DataOutputStream out = new DataOutputStream(soc.getOutputStream());
-        out.writeUTF("Hello Client, I received your message");
+        out.writeUTF("Hello Client, I recieved your message!");
 
         String request = in.readUTF();
         System.out.println("Request is: " + request);
@@ -23,6 +23,7 @@ public class TCPServer {
     }
 
     public static void main(String[] args) throws IOException {
+        System.out.println("Server is running on port 1254");
         new TCPServer();
     }
 

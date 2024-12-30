@@ -51,6 +51,7 @@ public class HandlingKeyEvent extends JFrame implements KeyListener {
                 case '/':
                     c = a/b;
                     result.setText(String.valueOf(c));
+                    JOptionPane.showMessageDialog(new JFrame(),c);
                     break;
                 default:
                     result.setText("Invalid Choice");

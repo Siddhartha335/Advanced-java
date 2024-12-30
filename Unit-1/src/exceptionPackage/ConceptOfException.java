@@ -27,7 +27,7 @@ public class ConceptOfException {
                proceed = false;
            }
            catch (InputMismatchException ex) {
-               System.err.println("Exception is " + ex);
+               System.err.println("Exception is " + ex.getMessage());
                scanner.nextLine();
                System.out.println("Enter proper data!!");
            }

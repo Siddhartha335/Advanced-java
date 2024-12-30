@@ -12,9 +12,9 @@ public class ComboBoxDemo extends JFrame {
 
     public ComboBoxDemo() {
         setTitle("Country Frame");
-//        setSize(502, 400);
+        setSize(502, 400);
         setLayout(new FlowLayout(FlowLayout.LEFT, 30, 10));
-        setBounds(1000, 350, 250, 300);
+//        setBounds(1000, 350, 250, 300);
         setResizable(false);
         //object creation
         displaylbl = new JLabel();

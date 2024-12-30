@@ -1,7 +1,6 @@
 package multiThreading;
 
 public class YieldMethod extends Thread{
-
     @Override
     public void run() {
         int i=0;

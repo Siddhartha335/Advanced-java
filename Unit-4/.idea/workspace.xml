@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49b3f150-7b56-46fe-9a25-cbd32059e7ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Unit-1/src/Practice/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-1/src/Practice/Practice1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unit-1/src/synchronizationPackage/UsingSynchronizedBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-1/src/synchronizationPackage/UsingSynchronizedBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-1/src/Practice/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-1/src/Practice/Practice3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-1/src/exceptionPackage/ConceptOfException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-1/src/exceptionPackage/ConceptOfException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-1/src/fileHandling/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-1/src/fileHandling/test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-1/src/inheritancePackage/Aggregation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-1/src/inheritancePackage/Aggregation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-1/src/multiThreading/YieldMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-1/src/multiThreading/YieldMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-2/src/choiceComponents/CheckBoxDemonstration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-2/src/choiceComponents/CheckBoxDemonstration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-2/src/choiceComponents/ComboBoxDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-2/src/choiceComponents/ComboBoxDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-2/src/choiceComponents/ToolBarDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-2/src/choiceComponents/ToolBarDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-3/src/eventHandling/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-3/src/eventHandling/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-3/src/eventHandling/HandlingActionEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-3/src/eventHandling/HandlingActionEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-3/src/eventHandling/HandlingKeyEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-3/src/eventHandling/HandlingKeyEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Unit-3/src/eventHandling/MouseEventHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-3/src/eventHandling/MouseEventHandle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unit-6/src/main/java/com/example/unit6/ChangeCSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-6/src/main/java/com/example/unit6/ChangeCSS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unit-7/out/artifacts/Unit_7_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-7/out/artifacts/Unit_7_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Unit-7/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Unit-7/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Unit-4/Database.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Unit-4/Database.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Database.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,10 +106,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MovieDatabaseExample" />
-        <item itemvalue="Application.Form" />
-        <item itemvalue="Application.DatabaseOperations" />
         <item itemvalue="Application.ResultSetAdditionalProperties" />
+        <item itemvalue="Application.DatabaseOperations" />
         <item itemvalue="Application.Database" />
+        <item itemvalue="Application.Form" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +132,10 @@
       <workItem from="1732588899726" duration="46000" />
       <workItem from="1732598683126" duration="35000" />
       <workItem from="1732945453465" duration="1408000" />
+      <workItem from="1734047787123" duration="2052000" />
+      <workItem from="1734049935865" duration="12000" />
+      <workItem from="1734050088704" duration="105000" />
+      <workItem from="1735396161077" duration="3989000" />
     </task>
     <servers />
   </component>

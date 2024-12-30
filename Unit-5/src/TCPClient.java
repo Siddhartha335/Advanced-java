@@ -1,26 +1,23 @@
 import java.io.*;
 import java.net.Socket;
-import java.net.UnknownHostException;
 
 public class TCPClient {
     Socket soc;
-    public TCPClient() throws IOException, UnknownHostException {
+    public TCPClient() throws IOException {
         soc = new Socket("localhost",1254);
         DataInputStream in = new DataInputStream(soc.getInputStream());
         DataOutputStream out = new DataOutputStream(soc.getOutputStream());
-        out.writeUTF("Hello Server");  //send request
+        out.writeUTF("Hello server");
 
-        //get response
         String response = in.readUTF();
-        System.out.println("The response from the server is: " + response);
-        soc.close();
+        System.out.println("Response is: " + response);
         in.close();
         out.close();
+        soc.close();
 
     }
 
     public static void main(String[] args) throws IOException {
-        System.out.println("Server is running on port 1254");
         new TCPClient();
     }
 

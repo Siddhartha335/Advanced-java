@@ -23,12 +23,11 @@ public class MouseEventHandle extends JFrame implements MouseListener {
 
     @Override
     public void mousePressed(MouseEvent e) {
-
     }
 
     @Override
     public void mouseReleased(MouseEvent e) {
-
+        System.exit(0);
     }
 
     @Override

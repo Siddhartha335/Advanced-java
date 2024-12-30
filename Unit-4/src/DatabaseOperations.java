@@ -12,8 +12,7 @@ public class DatabaseOperations {
     public void createTable() {
         Connection connection = db.getConnection(); // Get the connection from Database class
 
-        String createTableSQL = "CREATE TABLE IF NOT EXISTS Employee ("
-                + "id INT AUTO_INCREMENT PRIMARY KEY, "
+        String createTableSQL = "CREATE TABLE IF NOT EXISTS Employee (" + "id INT AUTO_INCREMENT PRIMARY KEY, "
                 + "first_name VARCHAR(50), "
                 + "last_name VARCHAR(50), "
                 + "email VARCHAR(100), "
@@ -26,7 +25,7 @@ public class DatabaseOperations {
 //                + "saddress VARCHAR(100))";
 
         try (Statement stmt = connection.createStatement()) {
-            stmt.executeUpdate(createTableSQL);
+            stmt.execute(createTableSQL);
             System.out.println("Table 'Employee' created successfully.");
         } catch (SQLException e) {
             System.out.println("Error while creating table: " + e.getMessage());

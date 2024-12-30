@@ -2,52 +2,45 @@ package eventHandling;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
-public class HandlingActionEvent extends JFrame implements ActionListener {
-    JLabel firstlbl,secondlbl,result;
-    JTextField firsttxt,secondtxt,resulttxt;
-    JButton add,subtract;
+public class HandlingActionEvent extends MouseAdapter {
+    JLabel firstlbl,secondlbl;
+    JTextField firsttxt,secondtxt;
+    JFrame frame;
     public HandlingActionEvent() {
-        setTitle("ActionEvent Frame");
-        setSize(500,400);
-        setLayout(new GridLayout(4,2,5,5));
+        frame = new JFrame();
+        frame.setTitle("MouseEvent Frame");
+        frame.setSize(500,400);
+        frame.setLayout(new GridLayout(2,2,5,5));
         firstlbl = new JLabel("First num");
         secondlbl = new JLabel("Second num");
-        result = new JLabel("Result");
         firsttxt = new JTextField(20);
         secondtxt = new JTextField(20);
-        resulttxt = new JTextField(20);
-        add = new JButton("Add");
-        add.setActionCommand("+");
-        add.addActionListener(this);
-        subtract = new JButton("Subtract");
-        subtract.setActionCommand("-");
-        subtract.addActionListener(this);
-        add(firstlbl);
-        add(secondlbl);
-        add(firsttxt);
-        add(secondtxt);
-        add(result);
-        add(resulttxt);
-        add(add);
-        add(subtract);
-        setVisible(true);
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        frame.add(firstlbl);
+        frame.add(firsttxt);
+        frame.add(secondlbl);
+        frame.add(secondtxt);
+        frame.addMouseListener(this);
+        frame.setVisible(true);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     @Override
-    public void actionPerformed(ActionEvent e) {
-        int a,b,c=0;
-        a = Integer.parseInt(firsttxt.getText());
-        b = Integer.parseInt(secondtxt.getText());
-        if(e.getActionCommand() == "+") {
-            c = a+b;
-        } else {
-            c = Math.abs(a-b);
-        }
-        resulttxt.setText(String.valueOf(c));
+    public void mousePressed(MouseEvent e) {
+        int num1 = Integer.parseInt(firsttxt.getText());
+        int num2 = Integer.parseInt(secondtxt.getText());
+        int c = num1+num2;
+        JOptionPane.showMessageDialog(new JFrame(),c);
+    }
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+        int num1 = Integer.parseInt(firsttxt.getText());
+        int num2 = Integer.parseInt(secondtxt.getText());
+        int c = Math.abs(num1-num2);
+        JOptionPane.showMessageDialog(new JFrame(),c);
     }
 
     public static void main(String[] args) {

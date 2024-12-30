@@ -12,7 +12,7 @@ public class CheckBoxDemonstration extends JFrame {
         setTitle("Course Frame");
         setSize(502, 400);
         setLayout(new FlowLayout(FlowLayout.LEFT, 30, 10));
-        setBounds(1000, 350, 200, 200);
+//        setBounds(1000, 350, 200, 200);
 //        setResizable(false);
 
         // Object creation

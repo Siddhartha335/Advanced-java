@@ -19,11 +19,11 @@ public class ToolBarDemo extends JFrame {
         Action colorAction = new AbstractAction("Color", new ImageIcon(getClass().getResource("menu.PNG"))) {
             @Override
             public void actionPerformed(ActionEvent e) {
-                panel.setBackground(Color.GREEN);
+                panel.setBackground(Color.RED);
             }
         };
 
-        Action openAction = new AbstractAction("Color", new ImageIcon(getClass().getResource("menu.PNG"))) {
+        Action openAction = new AbstractAction("Open", new ImageIcon(getClass().getResource("menu.PNG"))) {
             @Override
             public void actionPerformed(ActionEvent e) {
                 new JFileChooser().showOpenDialog(panel);
